@@ -1,0 +1,139 @@
+.
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── main
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── HEAD
+│   │               └── main
+│   ├── objects
+│   │   ├── 0e
+│   │   │   └── d66e06ce63651f97644837504b3e313bed8cde
+│   │   ├── ae
+│   │   │   └── 39406384b99106249d77d8a9338a1bf4e84669
+│   │   ├── be
+│   │   │   └── 226f2eca642cf99a923d947dd664e4667d1af8
+│   │   ├── cb
+│   │   │   └── b8f74b4961d545143eb50a2423a4166af56918
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-ebb338edef14c0ea587471a84323ad9b255c7e76.idx
+│   │       ├── pack-ebb338edef14c0ea587471a84323ad9b255c7e76.pack
+│   │       └── pack-ebb338edef14c0ea587471a84323ad9b255c7e76.rev
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── main
+│       ├── remotes
+│       │   └── origin
+│       │       ├── HEAD
+│       │       └── main
+│       └── tags
+├── .gitignore
+├── LICENSE
+├── README.md
+├── VERSION
+├── commit_git.sh
+├── docker
+│   ├── JupyterLab-configs
+│   │   ├── plugin.jupyterlab-settings
+│   │   ├── themes.jupyterlab-settings
+│   │   └── tracker.jupyterlab-settings
+│   ├── config
+│   │   ├── config.sh
+│   │   ├── delete_docker.sh
+│   │   ├── install-docker_old.sh
+│   │   └── install_docker_new.sh
+│   ├── docker-compose-app.yml
+│   ├── docker.md
+│   ├── python.Dockerfile
+│   └── python_req.txt
+├── estrutura_diretorio.txt
+└── script
+    ├── .ipynb_checkpoints
+    │   └── Limpeza-checkpoint.ipynb
+    ├── Limpeza.ipynb
+    ├── Plots
+    │   ├── rat_vi
+    │   │   ├── confusion_uc-False_fp-2048_r-2.png
+    │   │   ├── confusion_uc-False_fp-2048_r-3.png
+    │   │   ├── confusion_uc-False_fp-2048_r-5.png
+    │   │   ├── confusion_uc-False_fp-4096_r-2.png
+    │   │   ├── confusion_uc-False_fp-4096_r-3.png
+    │   │   ├── confusion_uc-False_fp-4096_r-5.png
+    │   │   ├── confusion_uc-False_fp-8192_r-2.png
+    │   │   ├── confusion_uc-False_fp-8192_r-3.png
+    │   │   ├── confusion_uc-False_fp-8192_r-5.png
+    │   │   ├── confusion_uc-True_fp-2048_r-2.png
+    │   │   ├── confusion_uc-True_fp-2048_r-3.png
+    │   │   ├── confusion_uc-True_fp-2048_r-5.png
+    │   │   ├── confusion_uc-True_fp-4096_r-2.png
+    │   │   ├── confusion_uc-True_fp-4096_r-3.png
+    │   │   ├── confusion_uc-True_fp-4096_r-5.png
+    │   │   ├── confusion_uc-True_fp-8192_r-2.png
+    │   │   ├── confusion_uc-True_fp-8192_r-3.png
+    │   │   └── confusion_uc-True_fp-8192_r-5.png
+    │   └── rat_vo
+    │       ├── confusion_uc-False_fp-2048_r-2.png
+    │       ├── confusion_uc-False_fp-2048_r-3.png
+    │       ├── confusion_uc-False_fp-2048_r-5.png
+    │       ├── confusion_uc-False_fp-4096_r-2.png
+    │       ├── confusion_uc-False_fp-4096_r-3.png
+    │       ├── confusion_uc-False_fp-4096_r-5.png
+    │       ├── confusion_uc-False_fp-8192_r-2.png
+    │       ├── confusion_uc-False_fp-8192_r-3.png
+    │       ├── confusion_uc-False_fp-8192_r-5.png
+    │       ├── confusion_uc-True_fp-2048_r-2.png
+    │       ├── confusion_uc-True_fp-2048_r-3.png
+    │       ├── confusion_uc-True_fp-2048_r-5.png
+    │       ├── confusion_uc-True_fp-4096_r-2.png
+    │       ├── confusion_uc-True_fp-4096_r-3.png
+    │       ├── confusion_uc-True_fp-4096_r-5.png
+    │       ├── confusion_uc-True_fp-8192_r-2.png
+    │       ├── confusion_uc-True_fp-8192_r-3.png
+    │       └── confusion_uc-True_fp-8192_r-5.png
+    ├── Resultados
+    │   ├── rat_vi
+    │   │   └── resultados.csv
+    │   └── rat_vo
+    │       └── resultados.csv
+    ├── ambiente.yml
+    ├── modelos_ANN_classificacao.ipynb
+    ├── mouse_vi.csv
+    ├── mouse_vi_classificado.csv
+    ├── mouse_vo.csv
+    ├── mouse_vo_classificado.csv
+    ├── rat_vi.csv
+    ├── rat_vi_classificado.csv
+    ├── rat_vo.csv
+    ├── rat_vo_classificado.csv
+    ├── representacao.py
+    └── test.py
+
+33 directories, 104 files
